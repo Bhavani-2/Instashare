@@ -1,0 +1,10 @@
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.slider-container {
+  display: flex;
+  justify-content: center;
+}

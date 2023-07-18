@@ -1,0 +1,145 @@
+.post-details-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+
+  width: 1040px;
+  height: 866px;
+  top: 258px;
+  left: 200px;
+  border-radius: 4px 4px 4px 4px;
+  border: 1px solid rgba(219, 219, 219, 1);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.link {
+  text-decoration: none;
+}
+.profile-pic {
+  width: 32px;
+  height: 32px;
+  top: 14px;
+  left: 24px;
+  border: 1.0322580337524414px;
+  border-radius: 15px;
+
+  border: 2px solid #e20337;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-size: cover;
+}
+.profile-section {
+  display: flex;
+  flex-direction: row;
+}
+.profile-name {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(38, 38, 38, 1);
+}
+.post-image {
+  width: 1040px;
+  height: 614px;
+  top: 59px;
+}
+.like-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 35px;
+}
+.like-button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.comment {
+  color: black;
+  margin-left: 10px;
+}
+.search {
+  color: black;
+  margin-left: 10px;
+}
+.like-count {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+
+  color: black;
+  margin-left: 35px;
+}
+.caption {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  margin-left: 35px;
+  color: rgba(38, 38, 38, 1);
+}
+.comment-head {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  margin-right: 10px;
+  color: black;
+  margin-top: 0px;
+  padding: 0px;
+}
+.comment-para {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color: black;
+  margin: 9px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.unorder-list {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px;
+}
+.created-para {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  margin-left: 35px;
+  color: rgba(152, 152, 152, 1);
+  margin-top: 0px;
+}
+@media screen and (max-width: 786px) {
+  .profile-pic {
+    width: 28px;
+    height: 28px;
+    top: 196px;
+    left: 26px;
+  }
+  .post-image {
+    width: 360px;
+    height: 375px;
+    top: 238px;
+  }
+  .post-details-list {
+    width: 360px;
+    height: 600px;
+    top: 57723px;
+    left: 18798px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: none;
+  }
+}

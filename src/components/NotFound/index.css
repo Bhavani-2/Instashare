@@ -1,0 +1,45 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.not-found-img {
+  width: 269px;
+  height: 297px;
+  top: 235px;
+  left: 586px;
+  padding: 0px 0.002615666249766946px 0px 0.003793025156483054px;
+}
+.notfound-head {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.notfound-para {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 501px;
+  height: 64px;
+  top: 644px;
+  left: 470px;
+  color: rgba(152, 152, 152, 1);
+}
+.notfound-button {
+  width: Hug (141px);
+  height: Hug (48px);
+  padding: 12px 32px 12px 32px;
+  border-radius: 12px;
+  gap: 8px;
+  background: rgba(64, 148, 239, 1);
+  border: none;
+  cursor: pointer;
+}
